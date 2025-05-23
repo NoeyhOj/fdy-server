@@ -15,6 +15,7 @@
     "cors": "^2.8.5",
     "cra-template-pwa": "2.0.0",
     "express": "^5.1.0",
+    "mongoose": "^8.15.0",
     "react": "^19.1.0",
     "react-devtools": "^6.1.2",
     "react-dom": "^19.1.0",

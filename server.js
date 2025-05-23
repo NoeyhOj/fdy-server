@@ -12,10 +12,6 @@ app.use(function(req, res, next) {
 });
 
 // Use environment variables for database URL
-DB_URI="mongodb+srv://myatlasdbuser:<db_password>@cluster0.txotdud.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-CLIENT_ID="S8Oa9mt5HlV1zTugN71m"
-CLIENT_SECRET="tizL9sf4fq"
-
 const dbUri = process.env.DB_URI;
 
 mongoose.connect(dbUri);
